@@ -15,8 +15,7 @@ Installation
 Click the green button that says "Code" and then "Download ZIP". 
 #### 2) Extract Code
 Click the blue downloads icon to the right of the url bar and click Nod-for-Firefox-master. Right click Nod-for-Firefox-Master in the popup and select Extract. Click extract.
-*The following step must be repeated on reload as well*
-#### 3) Load Add-On
+#### 3) Load Add-On *(Must be repeated every time Firefox launches)*
 Navigate to about:debugging and click "Load Temporary Add-On". Select the folder Nod-for-Firefox-master then the file manifest.json.
 
 ### Load Permanently *(requires creating/having a Firefox Developer Account)*
