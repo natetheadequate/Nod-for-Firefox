@@ -33,4 +33,7 @@ const injectScript = (file_path, type = "script", tag = "html") => {
   injectScript(chrome.runtime.getURL("dist/app.css"), "link", "head");
   injectScript(chrome.runtime.getURL("dist/app.js"), "script", "html");
   injectScript(chrome.runtime.getURL("dist/chunk-vendors.js"), "script", "html");
+  setInterval(()=>document.querySelectorAll("img[src^='chrome-extension://']").forEach((el)=>
+    el.setAttribute('src',el.src.replace(RegExp('^chrome-extension:\/\/[^\/]*\/'),browser.runtime.getURL('/')))
+),0);
 })();
