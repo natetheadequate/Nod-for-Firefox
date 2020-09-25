@@ -1,6 +1,6 @@
 Nod-for-Firefox
 ======================
-*For more information about Nod or to contribute to the author, see **[here](https://https://github.com/jamieecarr/nod)** *
+* For more information about Nod or to contribute to the author, see **[here](https://https://github.com/jamieecarr/nod)** *
 
 Description
 --------
@@ -11,7 +11,7 @@ Mozilla code review requires unminified code which is not available to me, thus 
 Installation
 --------------
 ### Load Temporarily 
-####1) Download Code
+#### 1) Download Code
 Click the green button that says "Code" and then "Download ZIP". 
 #### 2) Extract Code
 Click the blue downloads icon to the right of the url bar and click Nod-for-Firefox-master. Right click Nod-for-Firefox-Master in the popup and select Extract. Click extract.
