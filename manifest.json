@@ -1,0 +1,26 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  "name": "Nod - Reactions for Google Meet",
+  "version": "2.5.4",
+  "description": "Quick emoji reactions for muted team members",
+  "content_scripts": [
+    {
+      "matches": ["*://meet.google.com/**-**-**"],
+      "js": ["inject.js"]
+    }
+  ],
+  "web_accessible_resources": ["content.js", "dist/*", "img/*", "https://www.googletagmanager.com/gtag/js?id=UA-162154532-1", "//m.servedby-buysellads.com/monetization.js"],
+  "icons": { "16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png" },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icons/16.png"
+  },
+  "externally_connectable": {
+    "matches": ["*://meet.google.com/**-**-**"]
+  },
+  "optional_permissions": ["notifications", "*://meet.google.com/**-**-**"]
+}
