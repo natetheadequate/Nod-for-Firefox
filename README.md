@@ -1,6 +1,6 @@
 Nod-for-Firefox
 ======================
-* For more information about Nod or to contribute to the author, see **[here](https://https://github.com/jamieecarr/nod)** *
+*For more information about Nod or to contribute to the author, see **[here](https://https://github.com/jamieecarr/nod)***
 
 Description
 --------
